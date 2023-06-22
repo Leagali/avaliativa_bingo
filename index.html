@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>BINGO DO LUIZ</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>BINGO DO LUIZ</h1>
+    </header>
+
+    <main>
+        <section id="cartelas">
+            <div>
+                <button onclick="gerarCartela()">Gerar Bingo</button>
+                <button id="reiniciarBtn" onclick="window.location.reload()" disabled>Recomeçar</button>
+                <button id="jogarBtn" onclick="jogar()" disabled>Jogar</button>
+                <button id="automatioBtn" onclick="gerarNumerosAutomaticamente()" disabled>Automático</button>
+                <button id="pararBtn" onclick="pararGeracaoAutomatica()" disabled>Parar</button>
+            </div>
+            <div id="espaco_cartelas"></div>
+        </section>
+
+        <section id="numeros">
+            <h2>Números Sorteados:</h2>
+            <div id="numeros_sorteados"></div>
+        </section>
+    </main>
+
+    <footer>
+        DEVELOPED BY: <b>Luiz Gustavo Lessa</b>
+    </footer>
+    <script src="index.js"></script>
+    </body>
+    </html>

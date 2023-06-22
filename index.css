@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkseagreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: cadetblue;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+main section#numeros{
+    margin-top: 70px;
+    text-align: center;
+    justify-content: center;
+    max-width: 500px;
+}
+button {
+    background-color: darkcyan;
+    color: black;
+    border: 2px solid darkcyan;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: grab;
+}
+
+button:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+}
+button:hover {
+    background-color: brown;
+    border: 2px solid slateblue;
+}
+table {
+    background-color: aquamarine;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+.bingo {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+main div#espaco_cartelas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.bola {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #ff0000;
+    color: #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 10px;
+}
+p{
+    background-color: rgb(35, 51, 194);
+    font-size: 20px;
+    border-radius: 10%;
+    padding: 15px;
+}
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+}
